@@ -2,6 +2,8 @@ def game_hash
 {:home  => {
   :team_name => {},
   :colors => {},
+  :players => {},
+  
 },
 
   
@@ -14,6 +16,8 @@ def game_hash
   :away => {
     :team_name  => {},
     :colors => {},
+    :players => {},
+    
   }
 }
   
