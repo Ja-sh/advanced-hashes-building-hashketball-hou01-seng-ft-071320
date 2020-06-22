@@ -1,5 +1,8 @@
 def game_hash
-{:home  => {},
+{:home  => {
+  :team_name => {},
+  :colors => {},
+},
 
   
   
@@ -8,7 +11,10 @@ def game_hash
   
   
   
-  :away => {}
+  :away => {
+    :team_name  => {},
+    :colors => {},
+  }
 }
   
 end
