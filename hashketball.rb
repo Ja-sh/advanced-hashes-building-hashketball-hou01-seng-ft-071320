@@ -5,6 +5,7 @@ def game_hash
       :colors => ["Black",  'White'],
       :players => {
         
+        
       }
       
       
@@ -14,6 +15,7 @@ def game_hash
       :colors => ["Turquoise",  "Purple"],
       :players => {
         
+          :player_name => 
       }
       
     }
