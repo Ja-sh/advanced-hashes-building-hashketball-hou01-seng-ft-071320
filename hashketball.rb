@@ -28,15 +28,38 @@ def game_hash
           :slam_dunks => 7
           },
           {
-            :player_name => "Brook Lopez",
-            :number => 11,
-            :shoe => 17,
-            :points => 17,
-            :rebounds => 19,
-            :assists =>
-          
-          }
-          
+           :player_name => "Brook Lopez",
+           :number => 11,
+           :shoe => 17,
+           :points =>17,
+           :rebounds => 19,
+           :assists => 10,
+           :steals => 3,
+           :blocks =>1,
+           :slam_dunks => 15
+          },
+          {
+            :player_name => "Mason Plumlee",
+            :number => 1,
+            :shoe => 19,
+            :points => 26,
+            :rebounds => 11,
+            :assists => 6,
+            :steals => 3,
+            :blocks => 8,
+            :slam_dunks => 5
+          },
+          {
+            :player_name  =>  "Jason Terry",
+            :number => 31,
+            :shoe => 15,
+            :points => 19,
+            :rebounds => 2,
+            :assists => 2,
+            :steals => 4,
+            :blocks => 11,
+            :slam_dunks => 1
+            }
       ]
       
       
@@ -51,18 +74,4 @@ def game_hash
       
     }
   }
-  
-  
-  
-  
-  
-  Alan Anderson	Reggie Evans	Brook Lopez	Mason Plumlee	Jason Terry
-Number	0	30	11	1	31
-Shoe	16	14	17	19	15
-Points	22	12	17	26	19
-Rebounds	12	12	19	11	2
-Assists	12	12	10	6	2
-Steals	3	12	3	3	4
-Blocks	1	12	1	8	11
-Slam Dunks	1
 end
