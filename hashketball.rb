@@ -5,7 +5,8 @@ def game_hash
       :colors => ["Black",  'White'],
       :players => [
         
-          {:player_name => "Alan Anderson",
+          {
+          :player_name => "Alan Anderson",
           :number => 0,
           :shoe => 16,
           :points => 22,
@@ -15,12 +16,22 @@ def game_hash
           :blocks => 1,
           :slam_dunks => 1
           },
-          {:player_name => "Reggie Evans",
+          {
+          :player_name => "Reggie Evans",
           :number => 30,
           :shoe => 14,
           :points => 12,
           :rebounds => 12,
-          :assists =?
+          :assists => 12,
+          :steals => 12,
+          :blocks => 12, 
+          :slam_dunks => 7
+          },
+          {
+            :player_name 
+          
+          }
+          
       ]
       
       
